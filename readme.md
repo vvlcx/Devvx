@@ -2,7 +2,6 @@
   <br>
   Devvx is an easy way for penetration testers and bug 
   bounty hunters to test (blind) Cross Site Scripting.<br><br>
-  <img src="https://img.shields.io/github/release/vvlcx/Devvx?style=flat">
   <img src="https://img.shields.io/github/issues/vvlcx/Devvx?style=flat">
   <img src="https://img.shields.io/github/forks/vvlcx/Devvx?style=flat">
   <img src="https://img.shields.io/github/stars/vvlcx/Devvx?style=flat">
