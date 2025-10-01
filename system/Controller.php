@@ -105,7 +105,7 @@ class Controller
 
         if (!$this->session->isValidCsrfToken($csrf)) {
             if (!httpmode && !(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] === 'on' || $_SERVER['HTTPS'] === '1') || isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https')) {
-                throw new Exception('ezXSS does not work without SSL');
+                throw new Exception('Devvx does not work without SSL');
             }
             throw new Exception('Invalid CSRF token');
         }
@@ -411,7 +411,7 @@ class Controller
             if (explode('?', path)[0] !== '/manage/update' && path !== '/manage/install') {
                 $version = $this->model('Setting')->get('version');
                 if ($version !== version) {
-                    throw new Exception('ezXSS is not up-to-date');
+                    throw new Exception('Devvx is not up-to-date');
                 }
             }
         } catch (Exception $e) {

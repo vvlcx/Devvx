@@ -1,17 +1,17 @@
 <p align="center">
   <img src="https://i.imgur.com/oPtfbDG.png"><br>
-  ezXSS is an easy way for penetration testers and bug 
+  Devvx is an easy way for penetration testers and bug 
   bounty hunters to test (blind) Cross Site Scripting.<br><br>
-  <img src="https://img.shields.io/github/release/ssl/ezXSS?style=flat">
-  <img src="https://img.shields.io/github/issues/ssl/ezXSS?style=flat">
-  <img src="https://img.shields.io/github/forks/ssl/ezXSS?style=flat">
-  <img src="https://img.shields.io/github/stars/ssl/ezXSS?style=flat">
-  <img src="https://img.shields.io/github/license/ssl/ezXSS?style=flat">
+  <img src="https://img.shields.io/github/release/ssl/Devvx?style=flat">
+  <img src="https://img.shields.io/github/issues/ssl/Devvx?style=flat">
+  <img src="https://img.shields.io/github/forks/ssl/Devvx?style=flat">
+  <img src="https://img.shields.io/github/stars/ssl/Devvx?style=flat">
+  <img src="https://img.shields.io/github/license/ssl/Devvx?style=flat">
 </p>
 <hr>
-ezXSS is a tool that is designed to help find and exploit cross-site scripting (XSS) vulnerabilities. One of the key features of ezXSS is its ability to identify and exploit blind XSS vulnerabilities, which can be difficult to find using traditional methods.
+Devvx is a tool that is designed to help find and exploit cross-site scripting (XSS) vulnerabilities. One of the key features of Devvx is its ability to identify and exploit blind XSS vulnerabilities, which can be difficult to find using traditional methods.
 <br><br>
-Once an ezXSS payload is placed, the user must wait until it is triggered, at which point ezXSS will store and alert the user all the information of the vulnerable page. These reports can then be used to further identify and track important data. Payloads can even be updated to make the XSS persistent, allowing to track the infected user over all visited pages and open a reverse proxy.
+Once an Devvx payload is placed, the user must wait until it is triggered, at which point Devvx will store and alert the user all the information of the vulnerable page. These reports can then be used to further identify and track important data. Payloads can even be updated to make the XSS persistent, allowing to track the infected user over all visited pages and open a reverse proxy.
 
 ## Features
 * Easy to use dashboard with settings, statistics, payloads, view/share/search reports
@@ -45,21 +45,21 @@ Once an ezXSS payload is placed, the user must wait until it is triggered, at wh
 * SSL Certificate to test on https websites (consider Cloudflare or Let's Encrypt for a free SSL)
 
 ## Installation
-ezXSS is ez to install with Apache, NGINX or Docker
+Devvx is ez to install with Apache, NGINX or Docker
 
-visit the [wiki](https://github.com/ssl/ezXSS/wiki) for installation instructions.
+visit the [wiki](https://github.com/vvlcx/Devvx/wiki) for installation instructions.
 
 
-## Explore ezXSS hassle free
-Interested in using ezXSS but don't want to install it yet? Worry not! You can access and start using ezXSS with a free account on [ez.pe](https://ez.pe). Simply sign up and get started without any installation hassle.
+## Explore Devvx hassle free
+Interested in using Devvx but don't want to install it yet? Worry not! You can access and start using Devvx with a free account on [ez.pe](https://ez.pe). Simply sign up and get started without any installation hassle.
 
-Additionally, if you'd like to explore and test the tool before committing, there is a demo environment with admin account available at [demo.ezXSS.com/manage](https://demo.ezXSS.com/manage).
+Additionally, if you'd like to explore and test the tool before committing, there is a demo environment with admin account available at [demo.Devvx.com/manage](https://demo.Devvx.com/manage).
 
 Please note that some features might be disabled or limited in both the free account on ez.pe and the demo environment. These limitations are in place to maintain the integrity and security of the platforms. However, you can still get a good grasp of the tool's capabilities and decide after to install it yourself.
 
 ## Sponsors
 Maintenance of this project is made possible by all the contributors and sponsors. 
-I've personally worked for over 8 years on this project, taking hundreds of hours from my time. Please kindly consider becoming a sponsor, so I can continue maintaining and improving ezXSS as well as creating and releasing new projects. Current sponsors:
+I've personally worked for over 8 years on this project, taking hundreds of hours from my time. Please kindly consider becoming a sponsor, so I can continue maintaining and improving Devvx as well as creating and releasing new projects. Current sponsors:
 
 <p align="center">
 <a href="https://github.com/geeknik"><img src="https://github.com/geeknik.png" width="50px" alt="geeknik" /></a>&nbsp;&nbsp;

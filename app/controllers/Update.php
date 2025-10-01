@@ -12,7 +12,7 @@ class Update extends Controller
         $this->view->setTitle('Update');
         $this->view->renderTemplate('system/update');
 
-        // Get database ezXSS version
+        // Get database Devvx version
         try {
             $version = $this->model('Setting')->get('version');
         } catch (Exception) {
@@ -32,7 +32,7 @@ class Update extends Controller
 
         // Make sure the platform is not already up-to-date
         if ($version === version) {
-            throw new Exception('ezXSS is already up-to-date');
+            throw new Exception('Devvx is already up-to-date');
         }
 
         try {
@@ -53,7 +53,7 @@ class Update extends Controller
 
                 // Check if the version is 1.x
                 if (preg_match('/^1\./', $version)) {
-                    throw new Exception('ezXSS 1.x is deprecated. Please re-install on new empty database');
+                    throw new Exception('Devvx 1.x is deprecated. Please re-install on new empty database');
                 }
 
                 // Update the database from 2.x to 3.0
@@ -66,7 +66,7 @@ class Update extends Controller
 
                 // Update the database from 3.x to 4.0
                 if (preg_match('/^3\./', $version)) {
-                    $this->ezXSS3migrate($version);
+                    $this->Devvx3migrate($version);
                     $version = '4.0';
                     $this->model('Setting')->set('version', $version);
                 }
@@ -108,7 +108,7 @@ class Update extends Controller
                         $database = Database::openConnection();
                         $database->exec($sql);
                     } catch (Exception $e) {
-                        throw new Exception("Update has finished with errors. ezXSS was unable to add indexes to your database.\r\n" . $e->getMessage());
+                        throw new Exception("Update has finished with errors. Devvx was unable to add indexes to your database.\r\n" . $e->getMessage());
                     }
                 }
 
@@ -158,11 +158,11 @@ class Update extends Controller
     }
 
     /**
-     * Migrate ezXSS 3 database to ezXSS 4
+     * Migrate Devvx 3 database to Devvx 4
      * 
      * @return void
      */
-    private function ezXSS3migrate($version)
+    private function Devvx3migrate($version)
     {
         // Check if version is 3.9 or lower and update
         $updateQueries = ['3.0' => '3.5', '3.5' => '3.6', '3.6' => '3.9', '3.9' => '3.10'];
@@ -193,7 +193,7 @@ class Update extends Controller
         $this->model('Payload')->add($user['id'], host);
 
         // Add note
-        $this->model('Setting')->set('notepad', "Great! U have updated to ezXSS 4!\n\nA lot of things have changed, and some settings like your alerts and payloads needs to be re-done in other to make everything work correct again.\n\nPlease visit the Github wiki for help on github.com/ssl/ezXSS/wiki\n\n" . $notepad);
+        $this->model('Setting')->set('notepad', "Great! U have updated to Devvx 4!\n\nA lot of things have changed, and some settings like your alerts and payloads needs to be re-done in other to make everything work correct again.\n\nPlease visit the Github wiki for help on github.com/vvlcx/Devvx/wiki\n\n" . $notepad);
 
         // Update all oldskool 'collected pages' and NULL payloads
         $reports = $this->model('Report')->getAllInvalid();

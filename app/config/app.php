@@ -16,13 +16,13 @@ if ($config === false) {
 // Debug modus will show and report any kind of errors, do not enable this unless you are debugging something
 define('debug', $config['debug'] ?? '' === 'true' || $config['debug'] ?? '' === '1' ? true : false);
 
-// Defines whenever httpmode is enabled, this allows ezXSS panel to be used without SSL
+// Defines whenever httpmode is enabled, this allows Devvx panel to be used without SSL
 define('httpmode', $config['httpmode'] ?? '' === 'true' || $config['httpmode'] ?? '' === '1' ? true : false);
 
-// Defines whenever sign up is enabled, do not enable this unless you are serving a public ezXSS installation - this allows anyone to register!
+// Defines whenever sign up is enabled, do not enable this unless you are serving a public Devvx installation - this allows anyone to register!
 define('signupEnabled', $config['signupEnabled'] ?? '' === 'true' || $config['signupEnabled'] ?? '' === '1' ? true : false);
 
-// Current ezXSS version. Do not edit this
+// Current Devvx version. Do not edit this
 define('version', '4.2');
 
 // Defines the current host

@@ -259,7 +259,7 @@ class User_model extends Model
         $database->bindValue(':password', password_hash($password, PASSWORD_BCRYPT, ['cost' => 14]));
         $database->bindValue(':rank', $rank);
         $database->bindValue(':secret', '');
-        $database->bindValue(':notepad', 'Welcome to ezXSS');
+        $database->bindValue(':notepad', 'Welcome to Devvx');
 
         if (!$database->execute()) {
             throw new Exception('Something unexpected went wrong');
