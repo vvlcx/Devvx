@@ -1,0 +1,6 @@
+.env
+ezXSSdb/
+.idea/
+.vscode/
+/assets/img/report-*
+.DS_Store
