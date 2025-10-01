@@ -48,7 +48,6 @@ Additionally, if you'd like to explore and test the tool before committing, ther
 Please note that some features might be disabled or limited in both the free account on ez.pe and the demo environment. These limitations are in place to maintain the integrity and security of the platforms. However, you can still get a good grasp of the tool's capabilities and decide after to install it yourself.
 
 ## Sponsors
-Maintenance of this project is made possible by all the contributors and sponsors. 
-I've personally worked for over 8 years on this project, taking hundreds of hours from my time. Please kindly consider becoming a sponsor, so I can continue maintaining and improving Devvx as well as creating and releasing new projects. Current sponsors:
+SOON...
 
 
