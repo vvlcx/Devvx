@@ -1,12 +1,3 @@
-<p align="center">
-  <br>
-  Devvx is an easy way for penetration testers and bug 
-  bounty hunters to test (blind) Cross Site Scripting.<br><br>
-  <img src="https://img.shields.io/github/issues/vvlcx/Devvx?style=flat">
-  <img src="https://img.shields.io/github/forks/vvlcx/Devvx?style=flat">
-  <img src="https://img.shields.io/github/stars/vvlcx/Devvx?style=flat">
-  <img src="https://img.shields.io/github/license/vvlcx/Devvx?style=flat">
-</p>
 <hr>
 Devvx is a tool that is designed to help find and exploit cross-site scripting (XSS) vulnerabilities. One of the key features of Devvx is its ability to identify and exploit blind XSS vulnerabilities, which can be difficult to find using traditional methods.
 <br><br>
