@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/oPtfbDG.png"><br>
+  <br>
   Devvx is an easy way for penetration testers and bug 
   bounty hunters to test (blind) Cross Site Scripting.<br><br>
   <img src="https://img.shields.io/github/release/ssl/Devvx?style=flat">
