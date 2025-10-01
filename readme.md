@@ -2,11 +2,11 @@
   <br>
   Devvx is an easy way for penetration testers and bug 
   bounty hunters to test (blind) Cross Site Scripting.<br><br>
-  <img src="https://img.shields.io/github/release/ssl/Devvx?style=flat">
-  <img src="https://img.shields.io/github/issues/ssl/Devvx?style=flat">
-  <img src="https://img.shields.io/github/forks/ssl/Devvx?style=flat">
-  <img src="https://img.shields.io/github/stars/ssl/Devvx?style=flat">
-  <img src="https://img.shields.io/github/license/ssl/Devvx?style=flat">
+  <img src="https://img.shields.io/github/release/vvlcx/Devvx?style=flat">
+  <img src="https://img.shields.io/github/issues/vvlcx/Devvx?style=flat">
+  <img src="https://img.shields.io/github/forks/vvlcx/Devvx?style=flat">
+  <img src="https://img.shields.io/github/stars/vvlcx/Devvx?style=flat">
+  <img src="https://img.shields.io/github/license/vvlcx/Devvx?style=flat">
 </p>
 <hr>
 Devvx is a tool that is designed to help find and exploit cross-site scripting (XSS) vulnerabilities. One of the key features of Devvx is its ability to identify and exploit blind XSS vulnerabilities, which can be difficult to find using traditional methods.
@@ -41,8 +41,8 @@ Once an Devvx payload is placed, the user must wait until it is triggered, at wh
 
 ## Required
 * Server or shared web hosting with PHP 7.1 or up
-* Domain name (consider a short one or check out [shortboost](https://github.com/ssl/shortboost))
-* SSL Certificate to test on https websites (consider Cloudflare or Let's Encrypt for a free SSL)
+* Domain name (consider a short one or check out [shortboost](https://github.com/vvlcx/shortboost))
+* vvlcx Certificate to test on https websites (consider Cloudflare or Let's Encrypt for a free vvlcx)
 
 ## Installation
 Devvx is ez to install with Apache, NGINX or Docker
@@ -50,8 +50,8 @@ Devvx is ez to install with Apache, NGINX or Docker
 visit the [wiki](https://github.com/vvlcx/Devvx/wiki) for installation instructions.
 
 
-## Explore Devvx hassle free
-Interested in using Devvx but don't want to install it yet? Worry not! You can access and start using Devvx with a free account on [ez.pe](https://ez.pe). Simply sign up and get started without any installation hassle.
+## Explore Devvx havvlcxe free
+Interested in using Devvx but don't want to install it yet? Worry not! You can access and start using Devvx with a free account on [ez.pe](https://ez.pe). Simply sign up and get started without any installation havvlcxe.
 
 Additionally, if you'd like to explore and test the tool before committing, there is a demo environment with admin account available at [demo.Devvx.com/manage](https://demo.Devvx.com/manage).
 
